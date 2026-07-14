@@ -1,0 +1,13 @@
+# Ignore the template layout files
+*.njk linguist-vendored
+*.html linguist-vendored
+
+# Ignore the styles and assets
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+*.ts linguist-vendored
+
+# If your digital garden template has specific folders, ignore them entirely:
+src/site/ linguist-vendored
+_includes/ linguist-vendored
